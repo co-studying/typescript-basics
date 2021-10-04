@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "noImplicitAny": true,
+        "target": "es5"
+    },
+    "include": ["./src/**/*"]    // 컴파일할 대상 파일패스 지정
+}
