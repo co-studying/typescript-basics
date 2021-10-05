@@ -30,23 +30,23 @@ console.log(x[5].toString());
 
 let obj: object = {};
 let person: { name: string; age: number } = {
-  name: 'Julio',
-  age: 20,
+    name: 'Julio',
+    age: 20,
 };
 
 function sum(a: number, b: number): number {
-  return a + b;
+    return a + b;
 }
 
 sum(10, 20); // 유효
 sum(10, 20, 30); // 에러
 
 function hello(name: string, age?: number): string {
-  if (age) {
-    return `Hello World, ${name}(${age})`;
-  } else {
-    return `Hello World, ${name}`;
-  }
+    if (age) {
+        return `Hello World, ${name}(${age})`;
+    } else {
+        return `Hello World, ${name}`;
+    }
 }
 
 hello('Julio'); // 유효
